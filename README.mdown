@@ -1,0 +1,17 @@
+# Add Virtual Host Tool
+
+## Why?
+
+I whipped up this tool because I find myself constantly adding vhosts manually,
+which could easily be automated in my case.
+
+## How?
+
+Simply writes to apache configuration and hosts file using ruby and a shell script
+to make things easier on the fingers
+
+To use just add the files to a folder and add them to your $PATH, using like so:
+
+sudo sh add-vhost.sh mydomain.dev
+
+Once done, restart apache.
